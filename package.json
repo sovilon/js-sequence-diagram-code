@@ -1,8 +1,8 @@
 {
-	"name": "sequence-diagram-code",
-	"displayName": "sequence-diagram-code",
+	"name": "js-sequence-diagram-code",
+	"displayName": "js-sequence-diagram-code",
 	"description": "Render js-sequence-diagrams in Code editor",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:extension.sequence-diagram-render"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "extension.helloWorld",
-			"title": "Hello World"
+            "command": "extension.sequence-diagram-render",
+			"title": "Sequence Diagram Preview"
 		}]
 	},
 	"scripts": {
